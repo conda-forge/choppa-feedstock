@@ -1,5 +1,5 @@
 {% set name = "choppa" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/asapdiscovery/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 95bbb8ab0bd684aae7226d3640905ff89e19ecf5d386b692f412778fbbdadb3b
+  sha256: e90c950f2f01a413c9f0cd249b240052d123db8f2856b88fe98dc3eb35436372
 
 build:
   noarch: python
